@@ -25,7 +25,7 @@ def parse_arguments():
     
     parser.add_argument("--labeled_ratio", default=1.0, type=float, help="The ratio of labeled samples in the training set")
     
-    parser.add_argument("--method", type=str, default='ADB', help="which method to use")
+    parser.add_argument("--method", type=str, default='IODDD', help="which method to use")
 
     parser.add_argument("--train", action="store_true", help="Whether train the model")
 
